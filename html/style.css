@@ -18,6 +18,7 @@ header img {
 
 }
 
+
 .logo {
     align-items: center;
     justify-content: center;
@@ -26,7 +27,7 @@ header img {
     height: 150px;
 }
 
-/**main slideshow**/
+/**main**/
 
 main img {
     width: 100%;
@@ -41,7 +42,8 @@ li {
 }
 
 
-/**topnav split**/
+/**topnav split van https://www.w3schools.com/howto/howto_css_topnav_split.asp**/
+
 
 .topnav {
     margin: 0;
@@ -92,29 +94,88 @@ li {
     height: 300px;
 }
 
-/**guitar image**/
-
-.flippedguitar img {
-    transform: scaleX(-1);
-}
 
 /**main text**/
 
-main p {
+.hometext h1 {
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+    text-align: center;
+    text-decoration: underline;
+    align-items: center;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #7e2020;
+    padding: 15px;
+    background-color: #7e2020;
+   
+
+}
+
+.hometext p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 40%;
     text-align: center;
     align-items: center;
+    margin-bottom: 2em;
+    margin-top: 0em
+
 }
 
-.hometext2 {
+
+.hometext {
     display: flex;
-    flex-direction: row;
-    color: white;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
 
+.hometext2 h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+    text-align: center;
+    text-decoration: underline;
+    align-items: center;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #7e2020;
+    padding: 15px;
+    background-color: #7e2020;
+   
+
+}
+
+.hometext2 p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    margin: 4em;
+    margin-bottom: 0em;
+    border-width: 5px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-left: whitesmoke;
+    border-right: whitesmoke;
+    padding: 2em;
+
+}
+
+.hometext2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10em;
+}
+
+/**scroll image bar from https://www.w3schools.com/howto/default.asp**/
 section.scroll-container {
     background-color: #333;
     overflow: auto;
